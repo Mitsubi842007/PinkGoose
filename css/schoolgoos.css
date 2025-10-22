@@ -294,6 +294,7 @@ a {
 #grey3 {
     color: #2A3744
 }
+
 #grey4 {
     color: #8395A7
 }
@@ -359,7 +360,10 @@ a {
     width: 550px;
     height: 200px;
 }
-
+#workswith2 img {
+    width: 50px;
+    height: 50px;
+}
 #workswith2 a {
     border: #2A3744 solid 0px;
     border-radius: 50px;
@@ -390,7 +394,10 @@ a {
     align-content: stretch;
     gap: 25px;
 }
-
+.helpateverystep img {
+    width: 100px;
+    height: 100px;
+}
 .helpateverystep2 {
     display: flex;
     flex-direction: row;
@@ -407,7 +414,7 @@ a {
     display: flex;
     align-items: center;
 
-    width: 1    80px;
+    width: 1 80px;
 }
 
 .subscribe-box input[type="email"] {
@@ -488,6 +495,7 @@ a {
     align-items: center;
     align-content: center;
     gap: 1120px;
+    font-size: 20px;
 }
 
 .card-boxtext2 {
@@ -511,7 +519,7 @@ a {
     background-color: #77E6FF;
     border-radius: 20px;
     width: 380px;
-    height: 350px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -519,13 +527,14 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
+    font-size: 23px;
 }
 
 .roze-card-boxtext {
     background-color: #E2C1F9;
     border-radius: 20px;
     width: 380px;
-    height: 350px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -533,13 +542,14 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
+     font-size: 23px;
 }
 
 .yellow-card-boxtext {
     background-color: #DBE268;
     border-radius: 20px;
     width: 380px;
-    height: 350px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -547,6 +557,7 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
+     font-size: 23px;
 }
 
 /*dit is cardbox nummer 2*/
@@ -636,4 +647,58 @@ a {
     padding: 8px;
     font-size: 20px;
 }
-.howsGOOSEidea{}
+
+.howisgoose {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.howsGOOSEText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#howsGooseButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 30;
+    height: 30px;
+    gap:50px;
+    
+}
+#howsGooseButtons a {
+    border: #2A3744 solid 0px;
+    border-radius: 50px;
+    background-color: #2A3744;
+    width: 30;
+    height: 30px;
+}
+
+#howsGooseButtons a:hover {
+    border: 1px solid #CEAAFF;
+    background-color: #CEAAFF;
+    color: #10151A;
+    border-radius: 15px;
+    transition: ease 0.5s;
+width: 30;
+    height: 30px;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
