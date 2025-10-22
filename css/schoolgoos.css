@@ -540,7 +540,7 @@ a {
 }
 
 /*this is a cardbox number2*/
-.card-box {
+.card-box1 {
     display: flex;
     display: flex;
     flex-direction: row;
@@ -551,7 +551,7 @@ a {
 
 }
 
-.card-boxtext {
+.card-boxtext1 {
     display: flex;
     display: flex;
     flex-direction: row;
@@ -562,7 +562,7 @@ a {
     gap: 1120px;
 }
 
-.card-boxtext2 {
+.card-boxtext2-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -574,12 +574,12 @@ a {
 
 }
 
-.card-boxtext2 img {
+.card-boxtext2-2 img {
     width: 30%;
     height: 30px;
 }
 
-.cyan-card-boxtext {
+.grey-card-boxtext1 {
     background-color: #77E6FF;
     border-radius: 20px;
     width: 380px;
@@ -593,7 +593,7 @@ a {
     padding: 8px;
 }
 
-.roze-card-boxtext {
+.grey-card-boxtext2 {
     background-color: #E2C1F9;
     border-radius: 20px;
     width: 380px;
@@ -607,7 +607,7 @@ a {
     padding: 8px;
 }
 
-.yellow-card-boxtext {
+.grey-card-boxtext3 {
     background-color: #DBE268;
     border-radius: 20px;
     width: 380px;
