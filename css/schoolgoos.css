@@ -360,10 +360,12 @@ a {
     width: 550px;
     height: 200px;
 }
+
 #workswith2 img {
     width: 50px;
     height: 50px;
 }
+
 #workswith2 a {
     border: #2A3744 solid 0px;
     border-radius: 50px;
@@ -394,10 +396,12 @@ a {
     align-content: stretch;
     gap: 25px;
 }
+
 .helpateverystep img {
     width: 100px;
     height: 100px;
 }
+
 .helpateverystep2 {
     display: flex;
     flex-direction: row;
@@ -542,7 +546,7 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
-     font-size: 23px;
+    font-size: 23px;
 }
 
 .yellow-card-boxtext {
@@ -557,7 +561,7 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
-     font-size: 23px;
+    font-size: 23px;
 }
 
 /*dit is cardbox nummer 2*/
@@ -655,7 +659,7 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+
 }
 
 .howsGOOSEText {
@@ -674,30 +678,13 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 30;
-    height: 30px;
-    gap:50px;
-    
+    padding: 9px;
+    border-radius: 20px;
+ height:90px;
+ width:230px;
+    background-color: #23C9DE;
+    font-size: 10px;
 }
-#howsGooseButtons a {
-    border: #2A3744 solid 0px;
-    border-radius: 50px;
-    background-color: #2A3744;
-    width: 30;
-    height: 30px;
-}
-
-#howsGooseButtons a:hover {
-    border: 1px solid #CEAAFF;
-    background-color: #CEAAFF;
-    color: #10151A;
-    border-radius: 15px;
-    transition: ease 0.5s;
-width: 30;
-    height: 30px;
-    transform: scale(1.1);
-}
-
 a {
     text-decoration: none;
     color: white;
