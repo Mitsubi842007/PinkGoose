@@ -1,0 +1,68 @@
+*body {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+.box {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background-color : red;
+
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    border: 9px solid black;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+.container2 {
+    display: flex;
+    gap: 20px;
+    border: 9px solid black;
+    height: 95vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.container3 {
+    display: flex;
+    gap: 20px;
+    border: 9px solid black;
+    height: 95vh;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.container4 {
+    display: flex;
+    gap: 20px;
+    border: 9px solid black;
+    height: 95vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    
+    .box:nth-child(2) {
+        align-self: flex-end;
+    }
+}
+.container5 {
+    display: flex;
+    gap: 20px;
+    border: 9px solid black;
+    height: 95vh;
+    
+}
+
+.container6 {
+    display: flex;
+    gap: 20px;
+    border: 9px solid black;
+    height: 95vh;
+   
+    
+}
