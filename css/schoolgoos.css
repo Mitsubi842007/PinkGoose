@@ -7,6 +7,7 @@ body {
 
 }
 
+/*menu bar met titel*/
 .container {
     display: flex;
     gap: 15px;
@@ -220,7 +221,7 @@ a {
 
 }
 
-/**/
+
 #roze1second {
     color: #FFB4D3;
     display: flex;
@@ -253,6 +254,7 @@ a {
     transform: scale(1.1);
 }
 
+/*kleuren*/
 #geel1 {
     color: #FFC24C
 }
@@ -292,6 +294,9 @@ a {
 #grey3 {
     color: #2A3744
 }
+#grey4 {
+    color: #8395A7
+}
 
 #white1 {
     color: white
@@ -315,6 +320,10 @@ a {
 
 #black2 {
     color: #10151A;
+}
+
+#black3 {
+    color: #121E28;
 }
 
 .designforthefulljourney {
@@ -393,11 +402,12 @@ a {
     font-size: 27px;
 }
 
+/*email field*/
 .subscribe-box {
     display: flex;
     align-items: center;
 
-    width: 180px;
+    width: 1    80px;
 }
 
 .subscribe-box input[type="email"] {
@@ -430,7 +440,7 @@ a {
 
 .box-button1 {
     background-color: #37424D;
-    width: 400px;
+    width: 600px;
 
     display: flex;
     flex-direction: column;
@@ -457,7 +467,7 @@ a {
     background-color: #2A3744;
 }
 
-/*this is a cardbox number1*/
+/*dit is cardbox nummer 1*/
 .card-box {
     display: flex;
     display: flex;
@@ -539,7 +549,7 @@ a {
     padding: 8px;
 }
 
-/*this is a cardbox number2*/
+/*dit is cardbox nummer 2*/
 .card-box1 {
     display: flex;
     display: flex;
@@ -575,15 +585,16 @@ a {
 }
 
 .card-boxtext2-2 img {
-    width: 30%;
-    height: 30px;
+    width: 35%;
+    height: 80px;
 }
 
 .grey-card-boxtext1 {
-    background-color: #77E6FF;
+    background-color: #2A3744;
     border-radius: 20px;
+    border-color: #37424D;
     width: 380px;
-    height: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -591,13 +602,15 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
+    font-size: 20px;
 }
 
 .grey-card-boxtext2 {
-    background-color: #E2C1F9;
+    background-color: #2A3744;
     border-radius: 20px;
+    border-color: #37424D;
     width: 380px;
-    height: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -605,13 +618,15 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
+    font-size: 20px;
 }
 
 .grey-card-boxtext3 {
-    background-color: #DBE268;
+    background-color: #2A3744;
     border-radius: 20px;
+    border-color: #37424D;
     width: 380px;
-    height: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -619,4 +634,6 @@ a {
     align-content: start;
     font-size: 25px;
     padding: 8px;
+    font-size: 20px;
 }
+.howsGOOSEidea{}
