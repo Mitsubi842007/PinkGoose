@@ -263,7 +263,9 @@ a {
 #geel2 {
     color: #DBE268
 }
-
+#geel3{
+color: #FFC803;
+}
 #roze1 {
     color: #FFB4D3;
 }
@@ -747,5 +749,16 @@ a {
 	align-content: center;
     background-color: #121E28;
     width:1490px;
-    height:20px;
+    height:100px;
+}
+.footer-text{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    gap:50px;
+    font-size: 21px;
+ margin-right: 0%;
 }
