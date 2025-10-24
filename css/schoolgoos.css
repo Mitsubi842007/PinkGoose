@@ -263,9 +263,11 @@ a {
 #geel2 {
     color: #DBE268
 }
-#geel3{
-color: #FFC803;
+
+#geel3 {
+    color: #FFC803;
 }
+
 #roze1 {
     color: #FFB4D3;
 }
@@ -740,25 +742,54 @@ a {
 }
 
 /*Footer*/
-.footer-main{
+.footer-main {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     background-color: #121E28;
-    width:1490px;
-    height:100px;
+    width: 1490px;
+    height: 100px;
 }
-.footer-text{
+
+.footer-text {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-    gap:50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
     font-size: 21px;
- margin-right: 0%;
+    margin-left: 4%;
+}
+
+.footer-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    gap: 4px;
+    margin-left: 20px;
+
+
+}
+
+.footer-button a {
+    border: #2A3744 solid 0px;
+    border-radius: 50px;
+    background-color: #2A3744;
+}
+
+.footer-button:hover {
+    transition: ease 0.5s;
+    
+
+
+
+
 }
