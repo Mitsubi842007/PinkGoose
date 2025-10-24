@@ -620,9 +620,8 @@ a {
     flex-wrap: nowrap;
     justify-content: start;
     align-content: start;
-    font-size: 25px;
     padding: 8px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .grey-card-boxtext2 {
@@ -636,9 +635,8 @@ a {
     flex-wrap: nowrap;
     justify-content: start;
     align-content: start;
-    font-size: 25px;
     padding: 8px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .grey-card-boxtext3 {
@@ -652,9 +650,8 @@ a {
     flex-wrap: nowrap;
     justify-content: start;
     align-content: start;
-    font-size: 25px;
     padding: 8px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /*howisgoose1*/
@@ -741,6 +738,66 @@ a {
     transform: scale(1.1);
 }
 
+.helpateverystep3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    gap: 25px;
+
+}
+
+.helpateverystep3 img {
+    width: 130px;
+    height: 130px;
+    border-radius: 25px;
+    padding-left: 80px;
+}
+
+.helpcard-boxtext1 {
+    background-color: #FFB4D3;
+    border-radius: 20px;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-content: start;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.helpcard-boxtext2 {
+    background-color: #FFB4D3;
+    border-radius: 20px;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-content: start;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.helpcard-boxtext3 {
+    background-color: #FFB4D3;
+    border-radius: 20px;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-content: start;
+    padding: 8px;
+    font-size: 20px;
+}
+
 /*Footer*/
 .footer-main {
     display: flex;
@@ -787,9 +844,63 @@ a {
 
 .footer-button:hover {
     transition: ease 0.5s;
+}
+
+/*Footer2*/
+.footer-main2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #121E28;
+    width: 1490px;
+    height: 100px;
+}
+
+.footer-text2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    font-size: 21px;
+    margin-left: 4%;
+}
+
+.footer-button2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    gap: 4px;
+
+
+
+
+}
+
+.footer-button2 a {
+
+    border-radius: 50px;
+
+}
+
+.footer-button2:hover {
+    transition: ease 0.5s;
     
+}
 
-
+.footer-button2 img {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: 10px;
 
 
 }
