@@ -915,7 +915,7 @@ a {
     border-radius: 20px;
     margin: 90px;
     width: 700px;
-    height: 100vh;
+    height: 1500;
     padding: 10px
 }
 
@@ -940,7 +940,7 @@ a {
     gap: 10px;
     width: 500px;
     height: 200px;
-  
+
 }
 
 .field-emailbox1 input {
@@ -956,6 +956,7 @@ a {
 
 
 }
+
 .field-emailbox2 {
     display: flex;
     flex-direction: column;
@@ -963,21 +964,59 @@ a {
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    gap: 10px;
     width: 500px;
     height: 200px;
-  
+    margin-bottom: 30px;
+    field-sizing: 30px;
+
+}
+.field-emailbox2 textarea {
+    width: 300px;
+    border-radius: 10px;
+    height: 90px;
+    justify-content: start;
+    color: #3D4C5B;
+    background-color: #10151A;
+    border: #2A3744;
+    min-height: 320px;
 }
 
-.field-emailbox2 input {
-    width: 300px;
+.field-emailbox3 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.send-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #121E28;
+    margin-left: 410px;
+    margin-top: 200px;
+
+}
+
+.send-button button {
+    width: 100px;
     border-radius: 20px;
     height: 50px;
     justify-content: center;
     margin-left: 10px;
-    color: #3D4C5B;
-    background-color: #10151A;
-    border: #2A3744;
+    color: white;
+    background-color: #CEAAFF;
+
 
 
 
