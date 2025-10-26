@@ -916,7 +916,7 @@ a {
     margin: 90px;
     width: 700px;
     height: 1500;
-    padding: 10px
+
 }
 
 .field-boxtext {
@@ -927,7 +927,7 @@ a {
     align-items: center;
     align-content: center;
     font-size: 20px;
-    margin: 40px;
+
 }
 
 .field-emailbox1 {
@@ -967,9 +967,10 @@ a {
     width: 500px;
     height: 200px;
     margin-bottom: 30px;
-    field-sizing: 30px;
+
 
 }
+
 .field-emailbox2 textarea {
     width: 300px;
     border-radius: 10px;
@@ -979,21 +980,98 @@ a {
     background-color: #10151A;
     border: #2A3744;
     min-height: 320px;
+    margin-bottom: 50px;
 }
 
-.field-emailbox3 {}
+/*color of goose*/
+.colorofgoose {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    color: #3D4C5B;
+    border: #2A3744;
+    height: 400px;
 
 
+}
 
+.colorofgoose2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    color: #3D4C5B;
+    height: 50px;
+    width: 100px;
+    border: #2A3744;
+    margin-top: 20px;
 
+}
 
+/* red */
+.button1 {
+    background-color: #121E28;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    padding-left: 20px;
+}
 
+/* white */
+.button2 {
+    background-color: #121E28;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    padding-left: 20px;
+}
 
+/* Blue */
+.button3 {
+    background-color: #121E28;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    padding-left: 20px;
+}
 
-
-
-
-
+/*black*/
+.button4 {
+    background-color: #121E28;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    padding-left: 20px;
+}
 
 .send-button {
     display: flex;
@@ -1002,22 +1080,16 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background: #121E28;
     margin-left: 410px;
-    margin-top: 200px;
-
+    margin-bottom:30px ;
 }
 
 .send-button button {
     width: 100px;
     border-radius: 20px;
     height: 50px;
-    justify-content: center;
-    margin-left: 10px;
+    justify-content: start;
+    margin-bottom:30px ;
     color: white;
     background-color: #CEAAFF;
-
-
-
-
 }
