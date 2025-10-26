@@ -457,13 +457,11 @@ a {
 .box-button1 {
     background-color: #37424D;
     width: 600px;
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-
     padding: 40px;
     border-radius: 40px;
 }
@@ -893,7 +891,7 @@ a {
 
 .footer-button2:hover {
     transition: ease 0.5s;
-    
+
 }
 
 .footer-button2 img {
@@ -901,6 +899,86 @@ a {
     height: 50px;
     padding-left: 10px;
     margin-left: 10px;
+
+
+}
+
+.field-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: stretch;
+    align-content: center;
+    background: #121E28;
+    border: #3D4C5B;
+    border-radius: 20px;
+    margin: 90px;
+    width: 700px;
+    height: 100vh;
+    padding: 10px
+}
+
+.field-boxtext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.field-emailbox1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    width: 500px;
+    height: 200px;
+  
+}
+
+.field-emailbox1 input {
+    width: 300px;
+    border-radius: 20px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 10px;
+    color: #3D4C5B;
+    background-color: #10151A;
+    border: #2A3744;
+
+
+
+}
+.field-emailbox2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    width: 500px;
+    height: 200px;
+  
+}
+
+.field-emailbox2 input {
+    width: 300px;
+    border-radius: 20px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 10px;
+    color: #3D4C5B;
+    background-color: #10151A;
+    border: #2A3744;
+
 
 
 }
