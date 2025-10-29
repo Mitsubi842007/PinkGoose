@@ -18,7 +18,7 @@ body {
 }
 
 
-.title-box1wit {
+.title-box1-wit {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
@@ -30,7 +30,7 @@ body {
     margin-top: 0;
 }
 
-.title-box1roze {
+.title-box1-roze {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
@@ -45,7 +45,7 @@ body {
     gap: 0;
 }
 
-.boxmenu {
+.box-menu {
     display: flex;
     width: 800px;
     height: 60px;
@@ -55,12 +55,12 @@ body {
 
 }
 
-.boxmenu a {
+.box-menu a {
     color: #FFff;
     text-decoration: none;
 }
 
-.boxmenu a:hover {
+.box-menu a:hover {
     border: 5px solid #CEAAFF;
     background-color: #CEAAFF;
     color: #10151A;
@@ -71,7 +71,7 @@ body {
 
 }
 
-.boxmenu2 {
+.box-menu2 {
     display: flex;
     width: 800px;
     height: 60px;
@@ -81,7 +81,7 @@ body {
 
 }
 
-.boxmenu2 a:hover {
+.box-menu2 a:hover {
     border: 5px solid #CEAAFF;
     background-color: #CEAAFF;
     color: rgb(255, 255, 255);
@@ -92,7 +92,7 @@ body {
 
 }
 
-.boxmenu2 a {
+.box-menu2 a {
     color: #FFff;
     text-decoration: none;
 }
@@ -109,7 +109,7 @@ body {
     font-size: 25px;
 }
 
-.startedbox {
+.started-box {
     display: flex;
     width: 300px;
     height: 30px;
@@ -119,7 +119,7 @@ body {
     align-items: center;
 }
 
-.startedbox a {
+.started-box a {
     border: 5px solid #CEAAFF;
     background-color: #CEAAFF;
     color: #10151A;
@@ -129,7 +129,7 @@ body {
 
 }
 
-.startedbox a:hover {
+.started-box a:hover {
     border: 5px solid #CEAAFF;
     background-color: #CEAAFF;
     color: #10151A;
@@ -139,7 +139,7 @@ body {
 
 }
 
-.readyforyournextproject {
+.ready-for-your-next-project {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -223,7 +223,7 @@ a {
 }
 
 
-#roze1second {
+#roze1-second {
     color: #FFB4D3;
     display: flex;
     flex-direction: row;
@@ -238,14 +238,14 @@ a {
     height: 80px;
 }
 
-#roze1second a {
+#roze1-second a {
     color: black;
     border: #FFB4D3 solid 5px;
     border-radius: 20px;
     background-color: #FFB4D3;
 }
 
-#roze1second a:hover {
+#roze1-second a:hover {
     border: 5px solid #CEAAFF;
     background-color: #CEAAFF;
     color: #10151A;
@@ -332,7 +332,7 @@ a {
     color: #121E28;
 }
 
-.designforthefulljourney {
+.design-for-the-full-journey {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -342,7 +342,7 @@ a {
     font-size: 25px;
 }
 
-#workswith {
+#works-with {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -354,7 +354,7 @@ a {
     height: 200px;
 }
 
-#workswith2 {
+#works-with-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -366,18 +366,18 @@ a {
     height: 200px;
 }
 
-#workswith2 img {
+#works-with-2 img {
     width: 50px;
     height: 50px;
 }
 
-#workswith2 a {
+#works-with-2 a {
     border: #2A3744 solid 0px;
     border-radius: 50px;
     background-color: #2A3744;
 }
 
-#workswith2 a:hover {
+#works-with-2 a:hover {
     border: 1px solid #CEAAFF;
     background-color: #CEAAFF;
     color: #10151A;
@@ -392,7 +392,7 @@ a {
     color: white;
 }
 
-.helpateverystep {
+.help-at-every-step {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -402,12 +402,12 @@ a {
     gap: 25px;
 }
 
-.helpateverystep img {
+.help-at-every-step img {
     width: 100px;
     height: 100px;
 }
 
-.helpateverystep2 {
+.help-at-every-step-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -454,7 +454,7 @@ a {
     align-items: center;
 }
 
-.box-button1 {
+.box-button-1 {
     background-color: #37424D;
     width: 600px;
     display: flex;
@@ -493,7 +493,7 @@ a {
 
 }
 
-.card-boxtext {
+.card-box-text {
     display: flex;
     display: flex;
     flex-direction: row;
@@ -505,7 +505,7 @@ a {
     font-size: 20px;
 }
 
-.card-boxtext2 {
+.card-box-text2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -517,12 +517,12 @@ a {
 
 }
 
-.card-boxtext2 img {
+.card-box-text2 img {
     width: 30%;
     height: 30px;
 }
 
-.cyan-card-boxtext {
+.cyan-card-box-text {
     background-color: #77E6FF;
     border-radius: 20px;
     width: 380px;
@@ -537,7 +537,7 @@ a {
     font-size: 23px;
 }
 
-.roze-card-boxtext {
+.roze-card-box-text {
     background-color: #E2C1F9;
     border-radius: 20px;
     width: 380px;
@@ -552,7 +552,7 @@ a {
     font-size: 23px;
 }
 
-.yellow-card-boxtext {
+.yellow-card-box-text {
     background-color: #DBE268;
     border-radius: 20px;
     width: 380px;
@@ -579,7 +579,7 @@ a {
 
 }
 
-.card-boxtext1 {
+.card-box-text1 {
     display: flex;
     display: flex;
     flex-direction: row;
@@ -590,7 +590,7 @@ a {
     gap: 1120px;
 }
 
-.card-boxtext2-2 {
+.card-box-text2-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -602,12 +602,12 @@ a {
 
 }
 
-.card-boxtext2-2 img {
+.card-box-text2-2 img {
     width: 35%;
     height: 80px;
 }
 
-.grey-card-boxtext1 {
+.grey-card-box-text1 {
     background-color: #2A3744;
     border-radius: 20px;
     border-color: #37424D;
@@ -622,7 +622,7 @@ a {
     font-size: 15px;
 }
 
-.grey-card-boxtext2 {
+.grey-card-box-text2 {
     background-color: #2A3744;
     border-radius: 20px;
     border-color: #37424D;
@@ -637,7 +637,7 @@ a {
     font-size: 15px;
 }
 
-.grey-card-boxtext3 {
+.grey-card-box-text3 {
     background-color: #2A3744;
     border-radius: 20px;
     border-color: #37424D;
@@ -653,7 +653,7 @@ a {
 }
 
 /*howisgoose1*/
-.howisgoose {
+.how-is-goose {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -663,7 +663,7 @@ a {
 
 }
 
-.howsGOOSEText {
+.hows-GOOSE-Text {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -673,7 +673,7 @@ a {
     font-size: 23px;
 }
 
-#howsGooseButtons {
+#hows-Goose-Buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -694,7 +694,7 @@ a {
     color: white;
 }
 
-#howsGooseButtons:hover {
+#hows-Goose-Buttons:hover {
     transition: ease 0.5s;
     transform: scale(1.1);
 }
@@ -710,7 +710,7 @@ a {
 }
 
 /*howisgoose2*/
-#howsGooseButtons2 {
+#hows-Goose-Buttons2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -731,12 +731,12 @@ a {
     color: white;
 }
 
-#howsGooseButtons2:hover {
+#hows-Goose-Buttons2:hover {
     transition: ease 0.5s;
     transform: scale(1.1);
 }
 
-.helpateverystep3 {
+.help-at-every-step3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -747,14 +747,14 @@ a {
 
 }
 
-.helpateverystep3 img {
+.help-at-every-step3 img {
     width: 130px;
     height: 130px;
     border-radius: 25px;
     padding-left: 80px;
 }
 
-.helpcard-boxtext1 {
+.help-card-box-text1 {
     background-color: #FFB4D3;
     border-radius: 20px;
     width: 310px;
@@ -768,7 +768,7 @@ a {
     font-size: 20px;
 }
 
-.helpcard-boxtext2 {
+.help-card-box-text2 {
     background-color: #FFB4D3;
     border-radius: 20px;
     width: 310px;
@@ -782,7 +782,7 @@ a {
     font-size: 20px;
 }
 
-.helpcard-boxtext3 {
+.help-card-box-text3 {
     background-color: #FFB4D3;
     border-radius: 20px;
     width: 310px;
@@ -919,7 +919,7 @@ a {
 
 }
 
-.field-boxtext {
+.field-box-text {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -984,7 +984,7 @@ a {
 }
 
 /*color of goose*/
-.colorofgoose {
+.color-of-goose {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -998,7 +998,7 @@ a {
 
 }
 
-.colorofgoose2 {
+.color-of-goose2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -1014,7 +1014,7 @@ a {
 }
 
 /* red */
-.button1 {
+.button-1 {
     background-color: #121E28;
     border-radius: 10px;
     height: 50px;
@@ -1029,7 +1029,7 @@ a {
 }
 
 /* white */
-.button2 {
+.button-2 {
     background-color: #121E28;
     border-radius: 10px;
     height: 50px;
@@ -1044,7 +1044,7 @@ a {
 }
 
 /* Blue */
-.button3 {
+.button-3 {
     background-color: #121E28;
     border-radius: 10px;
     height: 50px;
@@ -1059,7 +1059,7 @@ a {
 }
 
 /*black*/
-.button4 {
+.button-4 {
     background-color: #121E28;
     border-radius: 10px;
     height: 50px;
@@ -1081,7 +1081,7 @@ a {
     align-items: center;
     align-content: center;
     margin-left: 410px;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
 
 .send-button button {
@@ -1089,7 +1089,7 @@ a {
     border-radius: 20px;
     height: 50px;
     justify-content: start;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
     color: white;
     background-color: #CEAAFF;
 }
