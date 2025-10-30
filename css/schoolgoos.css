@@ -198,6 +198,7 @@ a {
     width: 650px;
     height: 80px;
 
+
 }
 
 #project-2 a {
@@ -332,13 +333,13 @@ a {
     color: #121E28;
 }
 
-.design-for-the-full-journey {
+#design-for-the-full-journey {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    align-content: center;
+    align-content: center;  
     font-size: 25px;
 }
 
@@ -354,10 +355,17 @@ a {
     height: 200px;
 }
 
+#works-with-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #works-with-2 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -383,7 +391,6 @@ a {
     color: #10151A;
     border-radius: 15px;
     transition: ease 0.5s;
-
     transform: scale(1.1);
 }
 
@@ -661,7 +668,7 @@ a {
 
 }
 
-.hows-GOOSE-Text {
+.hows-goose-text {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -698,7 +705,7 @@ a {
 }
 
 
-#contact_buttons {
+#contact-buttons {
     display: flex;
     width: 30%;
     flex-direction: row;
