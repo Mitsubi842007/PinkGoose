@@ -5,16 +5,13 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-
 }
 
 /*menu bar met titel*/
 .container {
     display: flex;
     gap: 15px;
-    border: 10px solid black;
     height: 10vh;
-
 }
 
 
@@ -24,9 +21,7 @@ body {
     font-size: 30px;
     width: 400px;
     color: white;
-
     line-height: 35px;
-
     margin-top: 0;
 }
 
@@ -37,9 +32,7 @@ body {
     width: 400px;
     height: 40px;
     color: #FFB4D3;
-
     line-height: 35px;
-
     margin-top: 0;
     margin: 0;
     gap: 0;
@@ -52,7 +45,6 @@ body {
     font-size: 30px;
     justify-content: space-evenly;
     color: #FFff;
-
 }
 
 .box-menu a {
@@ -68,7 +60,6 @@ body {
     transition: ease 0.5s;
     box-shadow: 0 4px 16px rgb(250, 247, 247);
     transform: scale(1.1);
-
 }
 
 .box-menu2 {
@@ -78,7 +69,6 @@ body {
     font-size: 30px;
     justify-content: space-evenly;
     color: #10151A;
-
 }
 
 .box-menu2 a:hover {
@@ -89,7 +79,6 @@ body {
     transition: ease 0.5s;
     box-shadow: 0 4px 16px rgb(250, 247, 247);
     transform: scale(1.1);
-
 }
 
 .box-menu2 a {
@@ -105,18 +94,19 @@ body {
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-    margin: 70px;
     font-size: 25px;
+    margin-top: 30px;
 }
 
 .started-box {
     display: flex;
     width: 300px;
     height: 30px;
-    margin: 10px;
+    margin: 50px;
     font-size: 30px;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .started-box a {
@@ -126,7 +116,6 @@ body {
     text-decoration: none;
     border-radius: 11px;
     padding: 10px;
-
 }
 
 .started-box a:hover {
@@ -136,7 +125,6 @@ body {
     border-radius: 15px;
     transition: 0.8s ease;
     transform: scale(1.1);
-
 }
 
 .ready-for-your-next-project {
@@ -160,7 +148,6 @@ body {
     gap: 20px;
     width: 650px;
     height: 80px;
-
 }
 
 #project-1 a {
@@ -182,7 +169,6 @@ body {
 a {
     text-decoration: none;
     color: white;
-
 }
 
 #project-2 {
@@ -197,8 +183,6 @@ a {
     gap: 20px;
     width: 650px;
     height: 80px;
-
-
 }
 
 #project-2 a {
@@ -220,7 +204,6 @@ a {
 a {
     text-decoration: none;
     color: white;
-
 }
 
 
@@ -305,6 +288,10 @@ a {
     color: #8395A7
 }
 
+#grey5 {
+    color: #5A6C7E
+}
+
 #white1 {
     color: white
 }
@@ -339,7 +326,7 @@ a {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    align-content: center;  
+    align-content: center;
     font-size: 25px;
 }
 
@@ -355,7 +342,7 @@ a {
     height: 200px;
 }
 
-#works-with-box{
+#works-with-box {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -429,14 +416,11 @@ a {
 .subscribe-box {
     display: flex;
     align-items: center;
-
     width: 1 80px;
 }
 
 .subscribe-box input[type="email"] {
-
     font-size: 16px;
-
 }
 
 .subscribe-box input::placeholder {
@@ -446,11 +430,8 @@ a {
 .subscribe-box button {
     background: #CEAAFF;
     color: #121E28;
-
-
     font-size: 16px;
     cursor: pointer;
-
 }
 
 .weekly-digest {
@@ -469,8 +450,9 @@ a {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 30px;
     border-radius: 40px;
+    margin-top: 100px;
 }
 
 .box-button1 div button {
@@ -490,26 +472,29 @@ a {
 
 /*dit is cardbox nummer 1*/
 .card-box {
+    margin-top: 300px;
     display: flex;
-    display: flex;
+
+    width: calc(100vw - 20px);
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
 .card-box-text {
     display: flex;
-    display: flex;
+
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
-    gap: 1120px;
     font-size: 20px;
+
+    width: 85%;
+
 }
 
 .card-box-text2 {
@@ -519,9 +504,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-
     font-weight: bold;
-
 }
 
 .card-box-text2 img {
@@ -583,7 +566,6 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
 .card-box-text1 {
@@ -665,7 +647,6 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
 .hows-goose-text {
@@ -675,7 +656,8 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-size: 23px;
+    font-size: 21px;
+    margin-top: 140px;
 }
 
 #hows-Goose-Buttons {
@@ -707,15 +689,17 @@ a {
 
 #contact-buttons {
     display: flex;
-    width: 30%;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
+
+    gap: 50px;
 }
 
 /*howisgoose2*/
-#hows-Goose-Buttons2 {
+#hows-goose-buttons2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -729,6 +713,8 @@ a {
     background-color: #E2C1F9;
     font-size: 10px;
     color: #40354B;
+    margin: 10px;
+
 }
 
 a {
@@ -736,7 +722,7 @@ a {
     color: white;
 }
 
-#hows-Goose-Buttons2:hover {
+#hows-goose-buttons2:hover {
     transition: ease 0.5s;
     transform: scale(1.1);
 }
@@ -749,7 +735,6 @@ a {
     align-items: center;
     align-content: stretch;
     gap: 25px;
-
 }
 
 .help-at-every-step3 img {
@@ -812,6 +797,7 @@ a {
     background-color: #121E28;
     width: 100%;
     height: 100px;
+    margin-top: 200px;
 }
 
 .footer-text {
@@ -835,8 +821,6 @@ a {
     align-content: center;
     gap: 4px;
     margin-left: 20px;
-
-
 }
 
 .footer-button a {
@@ -881,22 +865,17 @@ a {
     justify-content: end;
     align-items: center;
     align-content: center;
-    gap: 4px;
-
-
-
-
+    gap: 5px;
+    margin-left: 100px;
 }
 
 .footer-button2 a {
 
     border-radius: 50px;
-
 }
 
 .footer-button2:hover {
     transition: ease 0.5s;
-
 }
 
 .footer-button2 img {
@@ -904,8 +883,6 @@ a {
     height: 50px;
     padding-left: 10px;
     margin-left: 10px;
-
-
 }
 
 .field-box {
@@ -921,7 +898,6 @@ a {
     margin: 90px;
     width: 700px;
     height: 1500;
-
 }
 
 .field-box-text {
@@ -932,7 +908,6 @@ a {
     align-items: center;
     align-content: center;
     font-size: 20px;
-
 }
 
 .field-emailbox1 {
@@ -945,7 +920,6 @@ a {
     gap: 10px;
     width: 500px;
     height: 200px;
-
 }
 
 .field-emailbox1 input {
@@ -957,9 +931,6 @@ a {
     color: #3D4C5B;
     background-color: #10151A;
     border: #2A3744;
-
-
-
 }
 
 .field-emailbox2 {
@@ -972,8 +943,6 @@ a {
     width: 500px;
     height: 200px;
     margin-bottom: 30px;
-
-
 }
 
 .field-emailbox2 textarea {
@@ -986,6 +955,7 @@ a {
     border: #2A3744;
     min-height: 320px;
     margin-bottom: 50px;
+    resize: none;
 }
 
 /*color of goose*/
@@ -998,25 +968,17 @@ a {
     align-content: center;
     color: #3D4C5B;
     border: #2A3744;
-    height: 400px;
-
-
+    height: 180px;
 }
 
-.color-of-goose2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: baseline;
-    align-content: center;
-    color: #3D4C5B;
-    height: 50px;
-    width: 100px;
-    border: #2A3744;
-    margin-top: 20px;
-
+.color-of-goose select {
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #121E28;
+    color: white;
 }
+
 
 /* red */
 .button-1 {
@@ -1086,7 +1048,7 @@ a {
     align-items: center;
     align-content: center;
     margin-left: 410px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .send-button button {
